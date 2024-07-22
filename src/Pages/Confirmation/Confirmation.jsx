@@ -2,7 +2,7 @@ import styles from '/src/Pages/Confirmation/Confirmation.module.css'
 import Verse from '../../Components/Verse/Verse'
 import Confetti from 'react-confetti'
 import { useState, useEffect } from 'react'
-import pic from './src/assets/Photos/heart_emoji_draw.png'
+import pic from '/src/assets/Photos/heart_emoji_draw.png'
 
 export default function Confirmation() {
     const [showConfetti, setShowConfetti] = useState(false);

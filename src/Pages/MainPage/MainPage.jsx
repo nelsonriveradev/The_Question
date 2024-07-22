@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import NextArrow from "../../Components/Arrows/Next/NextArrow";
 // img
-import pic from './src/assets/Photos/heart_emoji_draw.png'
+import pic from '/src/assets/Photos/heart_emoji_draw.png'
 
 
 export default function MainPage() {
