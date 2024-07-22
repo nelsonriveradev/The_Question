@@ -2,7 +2,7 @@ import styles from '/src/Pages/Confirmation/Confirmation.module.css'
 import Verse from '../../Components/Verse/Verse'
 import Confetti from 'react-confetti'
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import pic from './src/assets/Photos/heart_emoji_draw.png'
 
 export default function Confirmation() {
     const [showConfetti, setShowConfetti] = useState(false);
@@ -27,7 +27,7 @@ export default function Confirmation() {
             gravity={0.1}
             />
             <div className={styles.image}>  
-                <img src="src\assets\Photos\heart_emoji_draw.png" alt="heart emoji" />
+                <img src={pic} alt="heart emoji" />
             </div>
             <h1>God is our center.🙌</h1>
             <Verse

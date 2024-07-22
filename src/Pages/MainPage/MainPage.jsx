@@ -9,6 +9,8 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import NextArrow from "../../Components/Arrows/Next/NextArrow";
+// img
+import pic from './src/assets/Photos/heart_emoji_draw.png'
 
 
 export default function MainPage() {
@@ -29,7 +31,7 @@ export default function MainPage() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.image}>  
-                <img src="src\assets\Photos\heart_emoji_draw.png" alt="heart emoji" />
+                <img src={pic} alt="heart emoji" />
             </div>
             <div className={styles.sectionOne}>
                 <Slider {...settings}>
